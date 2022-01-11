@@ -15,11 +15,11 @@
         </div>
         <fieldset class="center">
             <form action ="update.php" method="post">
-                Name : <input class = "a" type ="text"><br>
-                Email Id : <input class = "a" type ="text"><br>
-                Phone : <input class = "a" type="text"><br>
-                Account Number : <input type="text"><br>
-                Amount : <input type ="text" class = "a" name = "amnt"><br>
+                Name : <input class = "a" type ="text" required><br>
+                Email Id : <input class = "a" type ="text" required><br>
+                Phone : <input class = "a" type="text" required><br>
+                Account Number : <input type="text" required><br>
+                Amount : <input type ="text" class = "a" name = "amnt" required><br>
                 Customer:
                   <select class = "a" name="bn">
                     <option disabled selected name>-- Select Customer --</option>
