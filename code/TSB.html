@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        The Sparks Bank
+    </title>
+    <style>
+        *{
+            box-sizing: border-box;
+         }
+
+        body {
+            background-image: url("sparksbg.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            font-size: 35px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        body h1{
+            padding-top:160px;
+        }
+
+        .topnav {
+            background-color: black;
+            border: double ;
+            border-color: white;
+            opacity: 0.7;
+            width: 100%;
+            overflow: auto;
+            color: white;
+         }
+
+        .topnav a{
+            float: left;
+            padding: 12px;
+            color: white; 
+            font-size:45px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            opacity: 0.9;
+            width: 25%;
+        }
+
+        button {
+            background-color: black;
+            opacity: 0.7;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: double;
+            border-color: white;
+            font-size: 32px;
+            cursor: pointer;
+            transition: 2s;
+        }
+
+        button:hover{
+            -ms-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class = "topnav">
+        <a href = "TSB.html">Home</a>
+        <a href = "customers.php">Customers</a>
+        <a href = "TransferMoney.php">Transfer Money</a>
+        <a href = "History.php">History</a>
+    </div>
+    <h1> The Sparks Bank </h1>
+    <button onclick = "location.replace('customers.php')">View All Customers</button>
+</body>
+</html>

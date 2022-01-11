@@ -1,0 +1,84 @@
+body{
+    background-image: url("custdetail.jpg");
+}
+
+.topnav{
+    background-color: black;
+    border: double ;
+    border-color: white;
+    opacity: 0.7;
+    width: 100%;
+    overflow: auto;
+}
+
+.topnav a{
+    float: left;
+    padding: 12px;
+    color: white;
+    font-size:45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    opacity: 0.9;
+    width: 23%;
+}
+
+.center{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 300px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+input{
+    height: 25px;
+    width: 300px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+}
+
+select{
+    height: 30px;
+    width: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type='submit']{
+    margin-left:50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    border: double;
+    border-color: white;
+    height: 50px;
+}
+
+button {
+    margin-left: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    border: double;
+    border-color: white;
+    height: 50px;
+    width: 300px;
+    margin-top:-10px;
+}

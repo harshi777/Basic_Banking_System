@@ -1,0 +1,61 @@
+table {
+    margin: 0 auto;
+    font-size: large;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+body {
+    background-image: url("custdetail.jpg");
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    opacity: 0.9;
+}
+
+th,
+td {
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+td {
+    font-weight: lighter;
+}
+
+.topnav {
+    background-color: black;
+    border: double ;
+    border-color: white;
+    opacity: 0.7;
+    width: 100%;
+    overflow: auto;
+    color: white; 
+}
+
+.topnav a{
+    float: left;
+    padding: 12px;
+    color: white;
+    font-size:45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    opacity: 0.9;
+    width: 23%;
+}
