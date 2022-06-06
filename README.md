@@ -6,3 +6,4 @@
 3. Flow: Home Page > View all Customers > Select and view one Customer > Transfer Money > Select customer to transfer to > View all Customers.
 
 
+![Screenshot (208)](https://user-images.githubusercontent.com/79721698/172095266-f01cedb1-5788-4544-9d85-5a5c4f0339e2.png)
