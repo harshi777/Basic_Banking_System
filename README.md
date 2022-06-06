@@ -1,4 +1,4 @@
-# [Basic_Banking_System]
+# Basic Banking System
 # GRIPJANUARY22
 ## Task1 
 1. Create a simple dynamic website which has the following specs.
